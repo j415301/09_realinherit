@@ -44,5 +44,14 @@ public class Person {
 	public String toString() {
 		return ""+name+" "+age+" "+gender;
 	}
+	
+	
+	
+	
+	
+	//부모 메소드 지정 -> 객체 정보를 출력하는 메소드
+	public void print() {
+		System.out.println(name+" "+age+" "+gender);
+	}
 
 }
